@@ -8,14 +8,17 @@ La teoría de la materia está en [isaiasibanez.github.io/OAA2](https://isaiasib
 
 | Carpeta | Qué hay |
 |---|---|
-| `Instructivo/` | Cómo instalar el entorno de trabajo `oaa2` (VS Code, Miniconda y las bibliotecas de la materia) y el archivo `environment.yml` que lo define. |
+| `Instructivo/` | Cómo instalar el entorno de trabajo `oaa2` (VS Code, Miniconda y las bibliotecas de la materia). |
 | `Apuntes/` | Apunte de repaso *NumPy para la materia*, con su notebook y las respuestas de la autoevaluación. |
 | `Guias/` | Actividades computacionales de cada guía (`guia_X.Y.pdf`). Se agregan a medida que avanza la materia. |
 | `Notebooks/` | Notebooks de cada guía (`ejercicios_X.Y.ipynb`) y los datos que usan (`datos/`). Se agregan a medida que avanza la materia. |
 
 ## Cómo empezar
 
-1. Instalá el entorno siguiendo el instructivo de `Instructivo/`.
+1. Instalá el entorno siguiendo el instructivo de `Instructivo/`. El archivo `environment.yml` de la raíz define el entorno:
+   ```bash
+   conda env create -f environment.yml
+   ```
 2. Leé el apunte de repaso de `Apuntes/` y ejecutá su notebook.
 3. Para cada guía, abrí su notebook en VS Code y elegí el kernel `oaa2`.
 
